@@ -1,0 +1,500 @@
+com.example.Demo1Application-[INFO]- 2024-06-19 16:16:56,634-Starting Demo1Application using Java 21.0.3 with PID 17476 (D:\SpringSTS\Workspace3\02_Spring_product_crud_jpa\target\classes started by Vamsi in D:\SpringSTS\Workspace3\02_Spring_product_crud_jpa)-
+com.example.Demo1Application-[INFO]- 2024-06-19 16:16:56,636-No active profile set, falling back to 1 default profile: "default"-
+org.springframework.data.repository.config.RepositoryConfigurationDelegate-[INFO]- 2024-06-19 16:16:56,901-Bootstrapping Spring Data JPA repositories in DEFAULT mode.-
+org.springframework.data.repository.config.RepositoryConfigurationDelegate-[INFO]- 2024-06-19 16:16:56,912-Finished Spring Data repository scanning in 10 ms. Found 1 JPA repository interface.-
+org.springframework.boot.web.embedded.tomcat.TomcatWebServer-[INFO]- 2024-06-19 16:16:57,055-Tomcat initialized with port 9191 (http)-
+org.apache.catalina.core.StandardService-[INFO]- 2024-06-19 16:16:57,056-Starting service [Tomcat]-
+org.apache.catalina.core.StandardEngine-[INFO]- 2024-06-19 16:16:57,056-Starting Servlet engine: [Apache Tomcat/10.1.24]-
+org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]-[INFO]- 2024-06-19 16:16:57,078-Initializing Spring embedded WebApplicationContext-
+org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext-[INFO]- 2024-06-19 16:16:57,079-Root WebApplicationContext: initialization completed in 439 ms-
+org.hibernate.jpa.internal.util.LogHelper-[INFO]- 2024-06-19 16:16:57,124-HHH000204: Processing PersistenceUnitInfo [name: default]-
+org.hibernate.cache.internal.RegionFactoryInitiator-[INFO]- 2024-06-19 16:16:57,127-HHH000026: Second-level cache disabled-
+org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo-[INFO]- 2024-06-19 16:16:57,143-No LoadTimeWeaver setup: ignoring JPA class transformer-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-06-19 16:16:57,144-HikariPool-2 - Starting...-
+com.zaxxer.hikari.pool.HikariPool-[INFO]- 2024-06-19 16:16:57,163-HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@540ce879-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-06-19 16:16:57,163-HikariPool-2 - Start completed.-
+org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator-[INFO]- 2024-06-19 16:16:57,224-HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)-
+org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean-[INFO]- 2024-06-19 16:16:57,234-Initialized JPA EntityManagerFactory for persistence unit 'default'-
+org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration-[WARN]- 2024-06-19 16:16:57,314-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning-
+org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer-[INFO]- 2024-06-19 16:16:57,446-LiveReload server is running on port 35729-
+org.springframework.boot.web.embedded.tomcat.TomcatWebServer-[INFO]- 2024-06-19 16:16:57,458-Tomcat started on port 9191 (http) with context path '/'-
+com.example.Demo1Application-[INFO]- 2024-06-19 16:16:57,463-Started Demo1Application in 0.897 seconds (process running for 107.629)-
+org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener-[INFO]- 2024-06-19 16:16:57,466-Condition evaluation unchanged-
+org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener-[INFO]- 2024-06-19 16:33:56,348-Restarting due to 14 class path changes (0 additions, 0 deletions, 14 modifications)-
+org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean-[INFO]- 2024-06-19 16:33:56,456-Closing JPA EntityManagerFactory for persistence unit 'default'-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-06-19 16:33:56,459-HikariPool-2 - Shutdown initiated...-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-06-19 16:33:56,521-HikariPool-2 - Shutdown completed.-
+com.example.Demo1Application-[INFO]- 2024-06-19 16:33:57,187-Starting Demo1Application using Java 21.0.3 with PID 17476 (D:\SpringSTS\Workspace3\02_Spring_product_crud_jpa\target\classes started by Vamsi in D:\SpringSTS\Workspace3\02_Spring_product_crud_jpa)-
+com.example.Demo1Application-[INFO]- 2024-06-19 16:33:57,188-No active profile set, falling back to 1 default profile: "default"-
+org.springframework.data.repository.config.RepositoryConfigurationDelegate-[INFO]- 2024-06-19 16:33:58,109-Bootstrapping Spring Data JPA repositories in DEFAULT mode.-
+org.springframework.data.repository.config.RepositoryConfigurationDelegate-[INFO]- 2024-06-19 16:33:58,145-Finished Spring Data repository scanning in 35 ms. Found 1 JPA repository interface.-
+org.springframework.boot.web.embedded.tomcat.TomcatWebServer-[INFO]- 2024-06-19 16:33:58,604-Tomcat initialized with port 9191 (http)-
+org.apache.catalina.core.StandardService-[INFO]- 2024-06-19 16:33:58,605-Starting service [Tomcat]-
+org.apache.catalina.core.StandardEngine-[INFO]- 2024-06-19 16:33:58,606-Starting Servlet engine: [Apache Tomcat/10.1.24]-
+org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]-[INFO]- 2024-06-19 16:33:58,744-Initializing Spring embedded WebApplicationContext-
+org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext-[INFO]- 2024-06-19 16:33:58,745-Root WebApplicationContext: initialization completed in 1507 ms-
+org.hibernate.jpa.internal.util.LogHelper-[INFO]- 2024-06-19 16:33:59,047-HHH000204: Processing PersistenceUnitInfo [name: default]-
+org.hibernate.cache.internal.RegionFactoryInitiator-[INFO]- 2024-06-19 16:33:59,053-HHH000026: Second-level cache disabled-
+org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo-[INFO]- 2024-06-19 16:33:59,076-No LoadTimeWeaver setup: ignoring JPA class transformer-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-06-19 16:33:59,080-HikariPool-3 - Starting...-
+com.zaxxer.hikari.pool.HikariPool-[INFO]- 2024-06-19 16:33:59,111-HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@59e30b20-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-06-19 16:33:59,113-HikariPool-3 - Start completed.-
+org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator-[INFO]- 2024-06-19 16:33:59,197-HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)-
+org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean-[INFO]- 2024-06-19 16:33:59,215-Initialized JPA EntityManagerFactory for persistence unit 'default'-
+org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration-[WARN]- 2024-06-19 16:33:59,790-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning-
+org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer-[INFO]- 2024-06-19 16:34:00,204-LiveReload server is running on port 35729-
+org.springframework.boot.web.embedded.tomcat.TomcatWebServer-[INFO]- 2024-06-19 16:34:00,226-Tomcat started on port 9191 (http) with context path '/'-
+com.example.Demo1Application-[INFO]- 2024-06-19 16:34:00,242-Started Demo1Application in 3.264 seconds (process running for 1130.408)-
+org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener-[INFO]- 2024-06-19 16:34:00,250-Condition evaluation unchanged-
+org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener-[INFO]- 2024-06-19 16:34:30,125-Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)-
+org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean-[INFO]- 2024-06-19 16:34:30,135-Closing JPA EntityManagerFactory for persistence unit 'default'-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-06-19 16:34:30,137-HikariPool-3 - Shutdown initiated...-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-06-19 16:34:30,152-HikariPool-3 - Shutdown completed.-
+com.example.Demo1Application-[INFO]- 2024-06-19 16:34:30,264-Starting Demo1Application using Java 21.0.3 with PID 17476 (D:\SpringSTS\Workspace3\02_Spring_product_crud_jpa\target\classes started by Vamsi in D:\SpringSTS\Workspace3\02_Spring_product_crud_jpa)-
+com.example.Demo1Application-[INFO]- 2024-06-19 16:34:30,265-No active profile set, falling back to 1 default profile: "default"-
+org.springframework.data.repository.config.RepositoryConfigurationDelegate-[INFO]- 2024-06-19 16:34:30,437-Bootstrapping Spring Data JPA repositories in DEFAULT mode.-
+org.springframework.data.repository.config.RepositoryConfigurationDelegate-[INFO]- 2024-06-19 16:34:30,444-Finished Spring Data repository scanning in 7 ms. Found 1 JPA repository interface.-
+org.springframework.boot.web.embedded.tomcat.TomcatWebServer-[INFO]- 2024-06-19 16:34:30,546-Tomcat initialized with port 9191 (http)-
+org.apache.catalina.core.StandardService-[INFO]- 2024-06-19 16:34:30,547-Starting service [Tomcat]-
+org.apache.catalina.core.StandardEngine-[INFO]- 2024-06-19 16:34:30,548-Starting Servlet engine: [Apache Tomcat/10.1.24]-
+org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]-[INFO]- 2024-06-19 16:34:30,575-Initializing Spring embedded WebApplicationContext-
+org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext-[INFO]- 2024-06-19 16:34:30,575-Root WebApplicationContext: initialization completed in 306 ms-
+org.hibernate.jpa.internal.util.LogHelper-[INFO]- 2024-06-19 16:34:30,615-HHH000204: Processing PersistenceUnitInfo [name: default]-
+org.hibernate.cache.internal.RegionFactoryInitiator-[INFO]- 2024-06-19 16:34:30,618-HHH000026: Second-level cache disabled-
+org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo-[INFO]- 2024-06-19 16:34:30,627-No LoadTimeWeaver setup: ignoring JPA class transformer-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-06-19 16:34:30,629-HikariPool-4 - Starting...-
+com.zaxxer.hikari.pool.HikariPool-[INFO]- 2024-06-19 16:34:30,646-HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@8a9b607-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-06-19 16:34:30,646-HikariPool-4 - Start completed.-
+org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator-[INFO]- 2024-06-19 16:34:30,689-HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)-
+org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean-[INFO]- 2024-06-19 16:34:30,700-Initialized JPA EntityManagerFactory for persistence unit 'default'-
+org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration-[WARN]- 2024-06-19 16:34:30,764-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning-
+org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer-[INFO]- 2024-06-19 16:34:30,848-LiveReload server is running on port 35729-
+org.springframework.boot.web.embedded.tomcat.TomcatWebServer-[INFO]- 2024-06-19 16:34:30,856-Tomcat started on port 9191 (http) with context path '/'-
+com.example.Demo1Application-[INFO]- 2024-06-19 16:34:30,862-Started Demo1Application in 0.634 seconds (process running for 1161.027)-
+org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener-[INFO]- 2024-06-19 16:34:30,866-Condition evaluation unchanged-
+org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]-[INFO]- 2024-06-19 16:35:16,574-Initializing Spring DispatcherServlet 'dispatcherServlet'-
+org.springframework.web.servlet.DispatcherServlet-[INFO]- 2024-06-19 16:35:16,574-Initializing Servlet 'dispatcherServlet'-
+org.springframework.web.servlet.DispatcherServlet-[INFO]- 2024-06-19 16:35:16,577-Completed initialization in 2 ms-
+org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver-[WARN]- 2024-06-19 16:35:16,699-Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource swagger-ui/index.html.]-
+org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver-[WARN]- 2024-06-19 16:36:44,852-Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/swagger-ui/index.html.]-
+org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver-[WARN]- 2024-06-19 16:39:26,126-Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource swagger-ui.]-
+org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener-[INFO]- 2024-06-19 16:42:18,127-Restarting due to 14 class path changes (0 additions, 0 deletions, 14 modifications)-
+org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean-[INFO]- 2024-06-19 16:42:18,144-Closing JPA EntityManagerFactory for persistence unit 'default'-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-06-19 16:42:18,147-HikariPool-4 - Shutdown initiated...-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-06-19 16:42:18,161-HikariPool-4 - Shutdown completed.-
+com.example.Demo1Application-[INFO]- 2024-06-19 16:43:03,333-Starting Demo1Application using Java 21.0.3 with PID 17476 (D:\SpringSTS\Workspace3\02_Spring_product_crud_jpa\target\classes started by Vamsi in D:\SpringSTS\Workspace3\02_Spring_product_crud_jpa)-
+com.example.Demo1Application-[INFO]- 2024-06-19 16:43:03,334-No active profile set, falling back to 1 default profile: "default"-
+org.springframework.data.repository.config.RepositoryConfigurationDelegate-[INFO]- 2024-06-19 16:43:03,515-Bootstrapping Spring Data JPA repositories in DEFAULT mode.-
+org.springframework.data.repository.config.RepositoryConfigurationDelegate-[INFO]- 2024-06-19 16:43:03,525-Finished Spring Data repository scanning in 9 ms. Found 1 JPA repository interface.-
+org.springframework.boot.web.embedded.tomcat.TomcatWebServer-[INFO]- 2024-06-19 16:43:03,604-Tomcat initialized with port 9191 (http)-
+org.apache.catalina.core.StandardService-[INFO]- 2024-06-19 16:43:03,605-Starting service [Tomcat]-
+org.apache.catalina.core.StandardEngine-[INFO]- 2024-06-19 16:43:03,606-Starting Servlet engine: [Apache Tomcat/10.1.24]-
+org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]-[INFO]- 2024-06-19 16:43:03,623-Initializing Spring embedded WebApplicationContext-
+org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext-[INFO]- 2024-06-19 16:43:03,623-Root WebApplicationContext: initialization completed in 285 ms-
+org.hibernate.jpa.internal.util.LogHelper-[INFO]- 2024-06-19 16:43:03,659-HHH000204: Processing PersistenceUnitInfo [name: default]-
+org.hibernate.cache.internal.RegionFactoryInitiator-[INFO]- 2024-06-19 16:43:03,662-HHH000026: Second-level cache disabled-
+org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo-[INFO]- 2024-06-19 16:43:03,675-No LoadTimeWeaver setup: ignoring JPA class transformer-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-06-19 16:43:03,676-HikariPool-5 - Starting...-
+com.zaxxer.hikari.pool.HikariPool-[INFO]- 2024-06-19 16:43:03,691-HikariPool-5 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5ce17979-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-06-19 16:43:03,691-HikariPool-5 - Start completed.-
+org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator-[INFO]- 2024-06-19 16:43:03,740-HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)-
+org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean-[INFO]- 2024-06-19 16:43:03,747-Initialized JPA EntityManagerFactory for persistence unit 'default'-
+org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration-[WARN]- 2024-06-19 16:43:03,819-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning-
+org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer-[INFO]- 2024-06-19 16:43:03,912-LiveReload server is running on port 35729-
+org.springframework.boot.web.embedded.tomcat.TomcatWebServer-[INFO]- 2024-06-19 16:43:03,920-Tomcat started on port 9191 (http) with context path '/'-
+com.example.Demo1Application-[INFO]- 2024-06-19 16:43:03,924-Started Demo1Application in 0.617 seconds (process running for 1674.09)-
+org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener-[INFO]- 2024-06-19 16:43:03,926-Condition evaluation unchanged-
+org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]-[INFO]- 2024-06-19 16:43:23,436-Initializing Spring DispatcherServlet 'dispatcherServlet'-
+org.springframework.web.servlet.DispatcherServlet-[INFO]- 2024-06-19 16:43:23,436-Initializing Servlet 'dispatcherServlet'-
+org.springframework.web.servlet.DispatcherServlet-[INFO]- 2024-06-19 16:43:23,437-Completed initialization in 0 ms-
+org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver-[WARN]- 2024-06-19 16:43:23,453-Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource swagger-ui/index.html.]-
+org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver-[WARN]- 2024-06-19 16:43:30,982-Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource swagger-ui.]-
+org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener-[INFO]- 2024-06-19 16:48:55,328-Restarting due to 3 class path changes (0 additions, 0 deletions, 3 modifications)-
+org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean-[INFO]- 2024-06-19 16:48:55,334-Closing JPA EntityManagerFactory for persistence unit 'default'-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-06-19 16:48:55,334-HikariPool-5 - Shutdown initiated...-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-06-19 16:48:55,340-HikariPool-5 - Shutdown completed.-
+com.example.Demo1Application-[INFO]- 2024-06-19 16:48:55,466-Starting Demo1Application using Java 21.0.3 with PID 17476 (D:\SpringSTS\Workspace3\02_Spring_product_crud_jpa\target\classes started by Vamsi in D:\SpringSTS\Workspace3\02_Spring_product_crud_jpa)-
+com.example.Demo1Application-[INFO]- 2024-06-19 16:48:55,467-No active profile set, falling back to 1 default profile: "default"-
+org.springframework.data.repository.config.RepositoryConfigurationDelegate-[INFO]- 2024-06-19 16:48:55,841-Bootstrapping Spring Data JPA repositories in DEFAULT mode.-
+org.springframework.data.repository.config.RepositoryConfigurationDelegate-[INFO]- 2024-06-19 16:48:55,856-Finished Spring Data repository scanning in 14 ms. Found 1 JPA repository interface.-
+org.springframework.boot.web.embedded.tomcat.TomcatWebServer-[INFO]- 2024-06-19 16:48:55,950-Tomcat initialized with port 9191 (http)-
+org.apache.catalina.core.StandardService-[INFO]- 2024-06-19 16:48:55,952-Starting service [Tomcat]-
+org.apache.catalina.core.StandardEngine-[INFO]- 2024-06-19 16:48:55,952-Starting Servlet engine: [Apache Tomcat/10.1.24]-
+org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]-[INFO]- 2024-06-19 16:48:55,974-Initializing Spring embedded WebApplicationContext-
+org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext-[INFO]- 2024-06-19 16:48:55,974-Root WebApplicationContext: initialization completed in 498 ms-
+org.hibernate.jpa.internal.util.LogHelper-[INFO]- 2024-06-19 16:48:56,018-HHH000204: Processing PersistenceUnitInfo [name: default]-
+org.hibernate.cache.internal.RegionFactoryInitiator-[INFO]- 2024-06-19 16:48:56,021-HHH000026: Second-level cache disabled-
+org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo-[INFO]- 2024-06-19 16:48:56,038-No LoadTimeWeaver setup: ignoring JPA class transformer-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-06-19 16:48:56,040-HikariPool-6 - Starting...-
+com.zaxxer.hikari.pool.HikariPool-[INFO]- 2024-06-19 16:48:56,063-HikariPool-6 - Added connection com.mysql.cj.jdbc.ConnectionImpl@51dd4c9c-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-06-19 16:48:56,064-HikariPool-6 - Start completed.-
+org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator-[INFO]- 2024-06-19 16:48:56,138-HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)-
+org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean-[INFO]- 2024-06-19 16:48:56,151-Initialized JPA EntityManagerFactory for persistence unit 'default'-
+org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration-[WARN]- 2024-06-19 16:48:56,233-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning-
+org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer-[INFO]- 2024-06-19 16:48:56,345-LiveReload server is running on port 35729-
+org.springframework.boot.web.embedded.tomcat.TomcatWebServer-[INFO]- 2024-06-19 16:48:56,365-Tomcat started on port 9191 (http) with context path '/'-
+com.example.Demo1Application-[INFO]- 2024-06-19 16:48:56,370-Started Demo1Application in 0.967 seconds (process running for 2026.536)-
+org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener-[INFO]- 2024-06-19 16:48:56,374-Condition evaluation unchanged-
+org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener-[INFO]- 2024-06-19 16:49:13,018-Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)-
+org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean-[INFO]- 2024-06-19 16:49:13,028-Closing JPA EntityManagerFactory for persistence unit 'default'-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-06-19 16:49:13,029-HikariPool-6 - Shutdown initiated...-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-06-19 16:49:13,039-HikariPool-6 - Shutdown completed.-
+com.example.Demo1Application-[INFO]- 2024-06-19 16:49:13,106-Starting Demo1Application using Java 21.0.3 with PID 17476 (D:\SpringSTS\Workspace3\02_Spring_product_crud_jpa\target\classes started by Vamsi in D:\SpringSTS\Workspace3\02_Spring_product_crud_jpa)-
+com.example.Demo1Application-[INFO]- 2024-06-19 16:49:13,107-No active profile set, falling back to 1 default profile: "default"-
+org.springframework.data.repository.config.RepositoryConfigurationDelegate-[INFO]- 2024-06-19 16:49:13,235-Bootstrapping Spring Data JPA repositories in DEFAULT mode.-
+org.springframework.data.repository.config.RepositoryConfigurationDelegate-[INFO]- 2024-06-19 16:49:13,243-Finished Spring Data repository scanning in 6 ms. Found 1 JPA repository interface.-
+org.springframework.boot.web.embedded.tomcat.TomcatWebServer-[INFO]- 2024-06-19 16:49:13,308-Tomcat initialized with port 9191 (http)-
+org.apache.catalina.core.StandardService-[INFO]- 2024-06-19 16:49:13,309-Starting service [Tomcat]-
+org.apache.catalina.core.StandardEngine-[INFO]- 2024-06-19 16:49:13,309-Starting Servlet engine: [Apache Tomcat/10.1.24]-
+org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]-[INFO]- 2024-06-19 16:49:13,329-Initializing Spring embedded WebApplicationContext-
+org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext-[INFO]- 2024-06-19 16:49:13,329-Root WebApplicationContext: initialization completed in 220 ms-
+org.hibernate.jpa.internal.util.LogHelper-[INFO]- 2024-06-19 16:49:13,356-HHH000204: Processing PersistenceUnitInfo [name: default]-
+org.hibernate.cache.internal.RegionFactoryInitiator-[INFO]- 2024-06-19 16:49:13,358-HHH000026: Second-level cache disabled-
+org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo-[INFO]- 2024-06-19 16:49:13,366-No LoadTimeWeaver setup: ignoring JPA class transformer-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-06-19 16:49:13,367-HikariPool-7 - Starting...-
+com.zaxxer.hikari.pool.HikariPool-[INFO]- 2024-06-19 16:49:13,379-HikariPool-7 - Added connection com.mysql.cj.jdbc.ConnectionImpl@79d006eb-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-06-19 16:49:13,380-HikariPool-7 - Start completed.-
+org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator-[INFO]- 2024-06-19 16:49:13,412-HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)-
+org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean-[INFO]- 2024-06-19 16:49:13,424-Initialized JPA EntityManagerFactory for persistence unit 'default'-
+org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration-[WARN]- 2024-06-19 16:49:13,480-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning-
+org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer-[INFO]- 2024-06-19 16:49:13,548-LiveReload server is running on port 35729-
+org.springframework.boot.web.embedded.tomcat.TomcatWebServer-[INFO]- 2024-06-19 16:49:13,553-Tomcat started on port 9191 (http) with context path '/'-
+com.example.Demo1Application-[INFO]- 2024-06-19 16:49:13,555-Started Demo1Application in 0.465 seconds (process running for 2043.721)-
+org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener-[INFO]- 2024-06-19 16:49:13,557-Condition evaluation unchanged-
+com.example.Demo1Application-[INFO]- 2024-06-19 16:49:24,166-Starting Demo1Application using Java 21.0.3 with PID 7620 (D:\SpringSTS\Workspace3\02_Spring_product_crud_jpa\target\classes started by Vamsi in D:\SpringSTS\Workspace3\02_Spring_product_crud_jpa)-
+com.example.Demo1Application-[INFO]- 2024-06-19 16:49:24,170-No active profile set, falling back to 1 default profile: "default"-
+org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor-[INFO]- 2024-06-19 16:49:24,270-Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable-
+org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor-[INFO]- 2024-06-19 16:49:24,272-For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'-
+org.springframework.data.repository.config.RepositoryConfigurationDelegate-[INFO]- 2024-06-19 16:49:25,658-Bootstrapping Spring Data JPA repositories in DEFAULT mode.-
+org.springframework.data.repository.config.RepositoryConfigurationDelegate-[INFO]- 2024-06-19 16:49:25,750-Finished Spring Data repository scanning in 78 ms. Found 1 JPA repository interface.-
+org.springframework.boot.web.embedded.tomcat.TomcatWebServer-[INFO]- 2024-06-19 16:49:26,924-Tomcat initialized with port 9191 (http)-
+org.apache.catalina.core.StandardService-[INFO]- 2024-06-19 16:49:26,949-Starting service [Tomcat]-
+org.apache.catalina.core.StandardEngine-[INFO]- 2024-06-19 16:49:26,949-Starting Servlet engine: [Apache Tomcat/10.1.24]-
+org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]-[INFO]- 2024-06-19 16:49:27,038-Initializing Spring embedded WebApplicationContext-
+org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext-[INFO]- 2024-06-19 16:49:27,039-Root WebApplicationContext: initialization completed in 2766 ms-
+org.hibernate.jpa.internal.util.LogHelper-[INFO]- 2024-06-19 16:49:27,321-HHH000204: Processing PersistenceUnitInfo [name: default]-
+org.hibernate.Version-[INFO]- 2024-06-19 16:49:27,413-HHH000412: Hibernate ORM core version 6.5.2.Final-
+org.hibernate.cache.internal.RegionFactoryInitiator-[INFO]- 2024-06-19 16:49:27,475-HHH000026: Second-level cache disabled-
+org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo-[INFO]- 2024-06-19 16:49:27,898-No LoadTimeWeaver setup: ignoring JPA class transformer-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-06-19 16:49:27,928-HikariPool-1 - Starting...-
+com.zaxxer.hikari.pool.HikariPool-[INFO]- 2024-06-19 16:49:28,666-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@e8fd1aa-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-06-19 16:49:28,669-HikariPool-1 - Start completed.-
+org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator-[INFO]- 2024-06-19 16:49:29,765-HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)-
+org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean-[INFO]- 2024-06-19 16:49:29,813-Initialized JPA EntityManagerFactory for persistence unit 'default'-
+org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration-[WARN]- 2024-06-19 16:49:30,371-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning-
+org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer-[INFO]- 2024-06-19 16:49:32,307-LiveReload server is running on port 35729-
+org.springframework.boot.web.embedded.tomcat.TomcatWebServer-[INFO]- 2024-06-19 16:49:32,379-Tomcat started on port 9191 (http) with context path '/'-
+com.example.Demo1Application-[INFO]- 2024-06-19 16:49:32,407-Started Demo1Application in 8.915 seconds (process running for 9.664)-
+org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]-[INFO]- 2024-06-19 16:50:02,014-Initializing Spring DispatcherServlet 'dispatcherServlet'-
+org.springframework.web.servlet.DispatcherServlet-[INFO]- 2024-06-19 16:50:02,014-Initializing Servlet 'dispatcherServlet'-
+org.springframework.web.servlet.DispatcherServlet-[INFO]- 2024-06-19 16:50:02,017-Completed initialization in 1 ms-
+org.springdoc.api.AbstractOpenApiResource-[INFO]- 2024-06-19 16:50:02,915-Init duration for springdoc-openapi is: 395 ms-
+com.example.OrderApplication-[INFO]- 2024-06-19 22:14:36,193-Starting OrderApplication using Java 21.0.3 with PID 3644 (D:\SpringSTS\Workspace3\02_Spring_ordered-product\target\classes started by Vamsi in D:\SpringSTS\Workspace3\02_Spring_ordered-product)-
+com.example.OrderApplication-[INFO]- 2024-06-19 22:14:36,197-No active profile set, falling back to 1 default profile: "default"-
+org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor-[INFO]- 2024-06-19 22:14:36,353-Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable-
+org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor-[INFO]- 2024-06-19 22:14:36,353-For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'-
+org.springframework.data.repository.config.RepositoryConfigurationDelegate-[INFO]- 2024-06-19 22:14:38,931-Bootstrapping Spring Data JPA repositories in DEFAULT mode.-
+org.springframework.data.repository.config.RepositoryConfigurationDelegate-[INFO]- 2024-06-19 22:14:39,081-Finished Spring Data repository scanning in 130 ms. Found 1 JPA repository interface.-
+org.springframework.boot.web.embedded.tomcat.TomcatWebServer-[INFO]- 2024-06-19 22:14:40,858-Tomcat initialized with port 9191 (http)-
+org.apache.catalina.core.StandardService-[INFO]- 2024-06-19 22:14:40,904-Starting service [Tomcat]-
+org.apache.catalina.core.StandardEngine-[INFO]- 2024-06-19 22:14:40,904-Starting Servlet engine: [Apache Tomcat/10.1.24]-
+org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]-[INFO]- 2024-06-19 22:14:41,028-Initializing Spring embedded WebApplicationContext-
+org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext-[INFO]- 2024-06-19 22:14:41,029-Root WebApplicationContext: initialization completed in 4674 ms-
+org.hibernate.jpa.internal.util.LogHelper-[INFO]- 2024-06-19 22:14:41,600-HHH000204: Processing PersistenceUnitInfo [name: default]-
+org.hibernate.Version-[INFO]- 2024-06-19 22:14:41,739-HHH000412: Hibernate ORM core version 6.5.2.Final-
+org.hibernate.cache.internal.RegionFactoryInitiator-[INFO]- 2024-06-19 22:14:41,866-HHH000026: Second-level cache disabled-
+org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo-[INFO]- 2024-06-19 22:14:42,789-No LoadTimeWeaver setup: ignoring JPA class transformer-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-06-19 22:14:42,832-HikariPool-1 - Starting...-
+com.zaxxer.hikari.pool.HikariPool-[INFO]- 2024-06-19 22:14:44,067-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2883566b-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-06-19 22:14:44,081-HikariPool-1 - Start completed.-
+org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator-[INFO]- 2024-06-19 22:14:45,267-HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)-
+org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean-[INFO]- 2024-06-19 22:14:45,279-Initialized JPA EntityManagerFactory for persistence unit 'default'-
+org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext-[WARN]- 2024-06-19 22:14:45,673-Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'orderController': Unsatisfied dependency expressed through field 'orderService': Error creating bean with name 'orderService': Unsatisfied dependency expressed through field 'orderRepo': Error creating bean with name 'orderRepository' defined in com.example.repository.OrderRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Not a managed type: class com.example.entity.Order-
+org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean-[INFO]- 2024-06-19 22:14:45,674-Closing JPA EntityManagerFactory for persistence unit 'default'-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-06-19 22:14:45,681-HikariPool-1 - Shutdown initiated...-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-06-19 22:14:45,712-HikariPool-1 - Shutdown completed.-
+org.apache.catalina.core.StandardService-[INFO]- 2024-06-19 22:14:45,719-Stopping service [Tomcat]-
+org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger-[INFO]- 2024-06-19 22:14:45,743-
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.-
+org.springframework.boot.SpringApplication-[ERROR]- 2024-06-19 22:14:45,792-Application run failed-
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'orderController': Unsatisfied dependency expressed through field 'orderService': Error creating bean with name 'orderService': Unsatisfied dependency expressed through field 'orderRepo': Error creating bean with name 'orderRepository' defined in com.example.repository.OrderRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Not a managed type: class com.example.entity.Order
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:787)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:767)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:145)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:508)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1421)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:962)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at com.example.OrderApplication.main(OrderApplication.java:11)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'orderService': Unsatisfied dependency expressed through field 'orderRepo': Error creating bean with name 'orderRepository' defined in com.example.repository.OrderRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Not a managed type: class com.example.entity.Order
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:787)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:767)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:145)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:508)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1421)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1443)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:784)
+	... 23 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'orderRepository' defined in com.example.repository.OrderRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Not a managed type: class com.example.entity.Order
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1788)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1443)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:784)
+	... 37 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Not a managed type: class com.example.entity.Order
+	at org.hibernate.metamodel.model.domain.internal.JpaMetamodelImpl.managedType(JpaMetamodelImpl.java:194)
+	at org.hibernate.metamodel.model.domain.internal.MappingMetamodelImpl.managedType(MappingMetamodelImpl.java:469)
+	at org.hibernate.metamodel.model.domain.internal.MappingMetamodelImpl.managedType(MappingMetamodelImpl.java:99)
+	at org.springframework.data.jpa.repository.support.JpaMetamodelEntityInformation.<init>(JpaMetamodelEntityInformation.java:82)
+	at org.springframework.data.jpa.repository.support.JpaEntityInformationSupport.getEntityInformation(JpaEntityInformationSupport.java:69)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getEntityInformation(JpaRepositoryFactory.java:249)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:214)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:197)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:1)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:317)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$5(RepositoryFactoryBeanSupport.java:286)
+	at org.springframework.data.util.Lazy.getNullable(Lazy.java:135)
+	at org.springframework.data.util.Lazy.get(Lazy.java:113)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:292)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.afterPropertiesSet(JpaRepositoryFactoryBean.java:132)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1835)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1784)
+	... 47 common frames omitted
+com.example.OrderApplication-[INFO]- 2024-06-19 22:19:42,303-Starting OrderApplication using Java 21.0.3 with PID 20460 (D:\SpringSTS\Workspace3\02_Spring_ordered-product\target\classes started by Vamsi in D:\SpringSTS\Workspace3\02_Spring_ordered-product)-
+com.example.OrderApplication-[INFO]- 2024-06-19 22:19:42,311-No active profile set, falling back to 1 default profile: "default"-
+org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor-[INFO]- 2024-06-19 22:19:42,542-Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable-
+org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor-[INFO]- 2024-06-19 22:19:42,543-For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'-
+org.springframework.data.repository.config.RepositoryConfigurationDelegate-[INFO]- 2024-06-19 22:19:46,159-Bootstrapping Spring Data JPA repositories in DEFAULT mode.-
+org.springframework.data.repository.config.RepositoryConfigurationDelegate-[INFO]- 2024-06-19 22:19:46,450-Finished Spring Data repository scanning in 249 ms. Found 1 JPA repository interface.-
+org.springframework.boot.web.embedded.tomcat.TomcatWebServer-[INFO]- 2024-06-19 22:19:48,239-Tomcat initialized with port 9191 (http)-
+org.apache.catalina.core.StandardService-[INFO]- 2024-06-19 22:19:48,280-Starting service [Tomcat]-
+org.apache.catalina.core.StandardEngine-[INFO]- 2024-06-19 22:19:48,280-Starting Servlet engine: [Apache Tomcat/10.1.24]-
+org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]-[INFO]- 2024-06-19 22:19:48,440-Initializing Spring embedded WebApplicationContext-
+org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext-[INFO]- 2024-06-19 22:19:48,441-Root WebApplicationContext: initialization completed in 5890 ms-
+org.hibernate.jpa.internal.util.LogHelper-[INFO]- 2024-06-19 22:19:48,885-HHH000204: Processing PersistenceUnitInfo [name: default]-
+org.hibernate.Version-[INFO]- 2024-06-19 22:19:49,050-HHH000412: Hibernate ORM core version 6.5.2.Final-
+org.hibernate.cache.internal.RegionFactoryInitiator-[INFO]- 2024-06-19 22:19:49,148-HHH000026: Second-level cache disabled-
+org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo-[INFO]- 2024-06-19 22:19:50,341-No LoadTimeWeaver setup: ignoring JPA class transformer-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-06-19 22:19:50,491-HikariPool-1 - Starting...-
+com.zaxxer.hikari.pool.HikariPool-[INFO]- 2024-06-19 22:19:51,518-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1ba8a71c-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-06-19 22:19:51,523-HikariPool-1 - Start completed.-
+org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator-[INFO]- 2024-06-19 22:19:52,587-HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)-
+org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean-[INFO]- 2024-06-19 22:19:52,598-Initialized JPA EntityManagerFactory for persistence unit 'default'-
+org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext-[WARN]- 2024-06-19 22:19:53,064-Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'orderController': Unsatisfied dependency expressed through field 'orderService': Error creating bean with name 'orderService': Unsatisfied dependency expressed through field 'orderRepo': Error creating bean with name 'orderRepository' defined in com.example.repository.OrderRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Not a managed type: class com.example.entity.Order-
+org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean-[INFO]- 2024-06-19 22:19:53,064-Closing JPA EntityManagerFactory for persistence unit 'default'-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-06-19 22:19:53,070-HikariPool-1 - Shutdown initiated...-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-06-19 22:19:53,091-HikariPool-1 - Shutdown completed.-
+org.apache.catalina.core.StandardService-[INFO]- 2024-06-19 22:19:53,096-Stopping service [Tomcat]-
+org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger-[INFO]- 2024-06-19 22:19:53,125-
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.-
+org.springframework.boot.SpringApplication-[ERROR]- 2024-06-19 22:19:53,165-Application run failed-
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'orderController': Unsatisfied dependency expressed through field 'orderService': Error creating bean with name 'orderService': Unsatisfied dependency expressed through field 'orderRepo': Error creating bean with name 'orderRepository' defined in com.example.repository.OrderRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Not a managed type: class com.example.entity.Order
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:787)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:767)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:145)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:508)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1421)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:962)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at com.example.OrderApplication.main(OrderApplication.java:11)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'orderService': Unsatisfied dependency expressed through field 'orderRepo': Error creating bean with name 'orderRepository' defined in com.example.repository.OrderRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Not a managed type: class com.example.entity.Order
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:787)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:767)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:145)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:508)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1421)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1443)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:784)
+	... 23 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'orderRepository' defined in com.example.repository.OrderRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Not a managed type: class com.example.entity.Order
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1788)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1443)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:784)
+	... 37 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Not a managed type: class com.example.entity.Order
+	at org.hibernate.metamodel.model.domain.internal.JpaMetamodelImpl.managedType(JpaMetamodelImpl.java:194)
+	at org.hibernate.metamodel.model.domain.internal.MappingMetamodelImpl.managedType(MappingMetamodelImpl.java:469)
+	at org.hibernate.metamodel.model.domain.internal.MappingMetamodelImpl.managedType(MappingMetamodelImpl.java:99)
+	at org.springframework.data.jpa.repository.support.JpaMetamodelEntityInformation.<init>(JpaMetamodelEntityInformation.java:82)
+	at org.springframework.data.jpa.repository.support.JpaEntityInformationSupport.getEntityInformation(JpaEntityInformationSupport.java:69)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getEntityInformation(JpaRepositoryFactory.java:249)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:214)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:197)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:1)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:317)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$5(RepositoryFactoryBeanSupport.java:286)
+	at org.springframework.data.util.Lazy.getNullable(Lazy.java:135)
+	at org.springframework.data.util.Lazy.get(Lazy.java:113)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:292)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.afterPropertiesSet(JpaRepositoryFactoryBean.java:132)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1835)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1784)
+	... 47 common frames omitted
+com.example.OrderApplication-[INFO]- 2024-06-19 22:23:18,734-Starting OrderApplication using Java 21.0.3 with PID 12976 (D:\SpringSTS\Workspace3\02_Spring_ordered-product\target\classes started by Vamsi in D:\SpringSTS\Workspace3\02_Spring_ordered-product)-
+com.example.OrderApplication-[INFO]- 2024-06-19 22:23:18,747-No active profile set, falling back to 1 default profile: "default"-
+org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor-[INFO]- 2024-06-19 22:23:18,925-Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable-
+org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor-[INFO]- 2024-06-19 22:23:18,925-For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'-
+org.springframework.data.repository.config.RepositoryConfigurationDelegate-[INFO]- 2024-06-19 22:23:21,287-Bootstrapping Spring Data JPA repositories in DEFAULT mode.-
+org.springframework.data.repository.config.RepositoryConfigurationDelegate-[INFO]- 2024-06-19 22:23:21,475-Finished Spring Data repository scanning in 170 ms. Found 1 JPA repository interface.-
+org.springframework.boot.web.embedded.tomcat.TomcatWebServer-[INFO]- 2024-06-19 22:23:23,223-Tomcat initialized with port 9191 (http)-
+org.apache.catalina.core.StandardService-[INFO]- 2024-06-19 22:23:23,269-Starting service [Tomcat]-
+org.apache.catalina.core.StandardEngine-[INFO]- 2024-06-19 22:23:23,270-Starting Servlet engine: [Apache Tomcat/10.1.24]-
+org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]-[INFO]- 2024-06-19 22:23:23,510-Initializing Spring embedded WebApplicationContext-
+org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext-[INFO]- 2024-06-19 22:23:23,513-Root WebApplicationContext: initialization completed in 4584 ms-
+org.hibernate.jpa.internal.util.LogHelper-[INFO]- 2024-06-19 22:23:23,988-HHH000204: Processing PersistenceUnitInfo [name: default]-
+org.hibernate.Version-[INFO]- 2024-06-19 22:23:24,116-HHH000412: Hibernate ORM core version 6.5.2.Final-
+org.hibernate.cache.internal.RegionFactoryInitiator-[INFO]- 2024-06-19 22:23:24,184-HHH000026: Second-level cache disabled-
+org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo-[INFO]- 2024-06-19 22:23:24,915-No LoadTimeWeaver setup: ignoring JPA class transformer-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-06-19 22:23:24,971-HikariPool-1 - Starting...-
+com.zaxxer.hikari.pool.HikariPool-[INFO]- 2024-06-19 22:23:26,003-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5a30d0ac-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-06-19 22:23:26,009-HikariPool-1 - Start completed.-
+org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator-[INFO]- 2024-06-19 22:23:27,459-HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)-
+org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean-[INFO]- 2024-06-19 22:23:27,474-Initialized JPA EntityManagerFactory for persistence unit 'default'-
+org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext-[WARN]- 2024-06-19 22:23:27,813-Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'orderController': Unsatisfied dependency expressed through field 'orderService': Error creating bean with name 'orderService': Unsatisfied dependency expressed through field 'orderRepo': Error creating bean with name 'orderRepository' defined in com.example.repository.OrderRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Not a managed type: class com.example.entity.Order-
+org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean-[INFO]- 2024-06-19 22:23:27,813-Closing JPA EntityManagerFactory for persistence unit 'default'-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-06-19 22:23:27,823-HikariPool-1 - Shutdown initiated...-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-06-19 22:23:27,847-HikariPool-1 - Shutdown completed.-
+org.apache.catalina.core.StandardService-[INFO]- 2024-06-19 22:23:27,853-Stopping service [Tomcat]-
+org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger-[INFO]- 2024-06-19 22:23:27,880-
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.-
+org.springframework.boot.SpringApplication-[ERROR]- 2024-06-19 22:23:27,924-Application run failed-
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'orderController': Unsatisfied dependency expressed through field 'orderService': Error creating bean with name 'orderService': Unsatisfied dependency expressed through field 'orderRepo': Error creating bean with name 'orderRepository' defined in com.example.repository.OrderRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Not a managed type: class com.example.entity.Order
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:787)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:767)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:145)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:508)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1421)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:962)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at com.example.OrderApplication.main(OrderApplication.java:11)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'orderService': Unsatisfied dependency expressed through field 'orderRepo': Error creating bean with name 'orderRepository' defined in com.example.repository.OrderRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Not a managed type: class com.example.entity.Order
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:787)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:767)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:145)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:508)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1421)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1443)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:784)
+	... 23 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'orderRepository' defined in com.example.repository.OrderRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Not a managed type: class com.example.entity.Order
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1788)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1443)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:784)
+	... 37 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Not a managed type: class com.example.entity.Order
+	at org.hibernate.metamodel.model.domain.internal.JpaMetamodelImpl.managedType(JpaMetamodelImpl.java:194)
+	at org.hibernate.metamodel.model.domain.internal.MappingMetamodelImpl.managedType(MappingMetamodelImpl.java:469)
+	at org.hibernate.metamodel.model.domain.internal.MappingMetamodelImpl.managedType(MappingMetamodelImpl.java:99)
+	at org.springframework.data.jpa.repository.support.JpaMetamodelEntityInformation.<init>(JpaMetamodelEntityInformation.java:82)
+	at org.springframework.data.jpa.repository.support.JpaEntityInformationSupport.getEntityInformation(JpaEntityInformationSupport.java:69)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getEntityInformation(JpaRepositoryFactory.java:249)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:214)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:197)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:1)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:317)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$5(RepositoryFactoryBeanSupport.java:286)
+	at org.springframework.data.util.Lazy.getNullable(Lazy.java:135)
+	at org.springframework.data.util.Lazy.get(Lazy.java:113)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:292)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.afterPropertiesSet(JpaRepositoryFactoryBean.java:132)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1835)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1784)
+	... 47 common frames omitted
