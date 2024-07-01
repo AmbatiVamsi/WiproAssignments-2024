@@ -1,0 +1,54 @@
+com.zaxxer.hikari.pool.HikariPool-[WARN]- 2024-07-01 00:26:48,607-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=53m10s345ms).-
+com.zaxxer.hikari.pool.HikariPool-[WARN]- 2024-07-01 00:29:18,637-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m30s32ms).-
+com.zaxxer.hikari.pool.HikariPool-[WARN]- 2024-07-01 01:16:14,344-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=46m25s700ms).-
+com.zaxxer.hikari.pool.HikariPool-[WARN]- 2024-07-01 01:31:50,604-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m36s261ms).-
+com.zaxxer.hikari.pool.HikariPool-[WARN]- 2024-07-01 03:11:39,917-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h39m49s312ms).-
+com.zaxxer.hikari.pool.HikariPool-[WARN]- 2024-07-01 04:32:20,439-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h20m40s523ms).-
+com.zaxxer.hikari.pool.HikariPool-[WARN]- 2024-07-01 05:14:13,265-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=41m52s825ms).-
+com.zaxxer.hikari.pool.HikariPool-[WARN]- 2024-07-01 06:13:29,507-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=58m46s243ms).-
+com.zaxxer.hikari.pool.HikariPool-[WARN]- 2024-07-01 07:15:10,119-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h1m10s608ms).-
+com.zaxxer.hikari.pool.HikariPool-[WARN]- 2024-07-01 08:16:09,258-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h29s109ms).-
+com.zaxxer.hikari.pool.HikariPool-[WARN]- 2024-07-01 08:20:54,672-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m15s398ms).-
+com.zaxxer.hikari.pool.HikariPool-[WARN]- 2024-07-01 08:36:26,830-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m32s159ms).-
+com.zaxxer.hikari.pool.HikariPool-[WARN]- 2024-07-01 08:59:47,942-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=22m51s99ms).-
+org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin-[INFO]- 2024-07-01 09:15:10,216-Application shutdown requested.-
+org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean-[INFO]- 2024-07-01 09:15:10,237-Closing JPA EntityManagerFactory for persistence unit 'default'-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-07-01 09:15:10,242-HikariPool-1 - Shutdown initiated...-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-07-01 09:15:10,252-HikariPool-1 - Shutdown completed.-
+com.example.demo.DemoApplication-[INFO]- 2024-07-01 10:07:00,789-Starting DemoApplication using Java 17.0.10 with PID 65562 (/Users/ashujauhari/Data/CoreJava/Wipro/circuitbreaker/03_productservice-circuit-breaker-sleuthzipkin/target/classes started by ashujauhari in /Users/ashujauhari/Data/CoreJava/Wipro/circuitbreaker/03_productservice-circuit-breaker-sleuthzipkin)-
+com.example.demo.DemoApplication-[INFO]- 2024-07-01 10:07:00,790-No active profile set, falling back to 1 default profile: "default"-
+org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor-[INFO]- 2024-07-01 10:07:00,807-Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable-
+org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor-[INFO]- 2024-07-01 10:07:00,807-For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'-
+org.springframework.data.repository.config.RepositoryConfigurationDelegate-[INFO]- 2024-07-01 10:07:01,267-Bootstrapping Spring Data JPA repositories in DEFAULT mode.-
+org.springframework.data.repository.config.RepositoryConfigurationDelegate-[INFO]- 2024-07-01 10:07:01,289-Finished Spring Data repository scanning in 19 ms. Found 1 JPA repository interface.-
+org.springframework.boot.web.embedded.tomcat.TomcatWebServer-[INFO]- 2024-07-01 10:07:01,594-Tomcat initialized with port 9198 (http)-
+org.apache.catalina.core.StandardService-[INFO]- 2024-07-01 10:07:01,600-Starting service [Tomcat]-
+org.apache.catalina.core.StandardEngine-[INFO]- 2024-07-01 10:07:01,600-Starting Servlet engine: [Apache Tomcat/10.1.24]-
+org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]-[INFO]- 2024-07-01 10:07:01,619-Initializing Spring embedded WebApplicationContext-
+org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext-[INFO]- 2024-07-01 10:07:01,619-Root WebApplicationContext: initialization completed in 812 ms-
+org.hibernate.jpa.internal.util.LogHelper-[INFO]- 2024-07-01 10:07:01,818-HHH000204: Processing PersistenceUnitInfo [name: default]-
+org.hibernate.Version-[INFO]- 2024-07-01 10:07:01,849-HHH000412: Hibernate ORM core version 6.5.2.Final-
+org.hibernate.cache.internal.RegionFactoryInitiator-[INFO]- 2024-07-01 10:07:01,866-HHH000026: Second-level cache disabled-
+org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo-[INFO]- 2024-07-01 10:07:01,995-No LoadTimeWeaver setup: ignoring JPA class transformer-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-07-01 10:07:02,008-HikariPool-1 - Starting...-
+com.zaxxer.hikari.pool.HikariPool-[INFO]- 2024-07-01 10:07:02,197-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7a25166e-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-07-01 10:07:02,198-HikariPool-1 - Start completed.-
+org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator-[INFO]- 2024-07-01 10:07:02,636-HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)-
+org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean-[INFO]- 2024-07-01 10:07:02,687-Initialized JPA EntityManagerFactory for persistence unit 'default'-
+org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration-[WARN]- 2024-07-01 10:07:02,887-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning-
+org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer-[INFO]- 2024-07-01 10:07:03,428-LiveReload server is running on port 35729-
+org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver-[INFO]- 2024-07-01 10:07:03,433-Exposing 1 endpoint beneath base path '/actuator'-
+org.springframework.boot.web.embedded.tomcat.TomcatWebServer-[INFO]- 2024-07-01 10:07:03,481-Tomcat started on port 9198 (http) with context path '/'-
+com.example.demo.DemoApplication-[INFO]- 2024-07-01 10:07:03,492-Started DemoApplication in 2.893 seconds (process running for 3.197)-
+org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]-[INFO]- 2024-07-01 10:13:10,564-Initializing Spring DispatcherServlet 'dispatcherServlet'-
+org.springframework.web.servlet.DispatcherServlet-[INFO]- 2024-07-01 10:13:10,565-Initializing Servlet 'dispatcherServlet'-
+org.springframework.web.servlet.DispatcherServlet-[INFO]- 2024-07-01 10:13:10,568-Completed initialization in 3 ms-
+com.example.demo.service.ProductService-[INFO]- 2024-07-01 10:13:10,611-Fetching all records from Database...-
+org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver-[WARN]- 2024-07-01 10:13:23,844-Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]-
+org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver-[WARN]- 2024-07-01 10:13:23,896-Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]-
+org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver-[WARN]- 2024-07-01 10:13:24,066-Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]-
+org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver-[WARN]- 2024-07-01 10:13:24,213-Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]-
+org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver-[WARN]- 2024-07-01 10:13:24,363-Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]-
+org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver-[WARN]- 2024-07-01 10:13:24,491-Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]-
+org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver-[WARN]- 2024-07-01 10:13:24,692-Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]-
+org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver-[WARN]- 2024-07-01 10:14:10,211-Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]-
