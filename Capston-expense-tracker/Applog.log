@@ -1,0 +1,24 @@
+com.example.ExpenseApplication-[INFO]- 2024-07-25 09:09:07,362-Starting ExpenseApplication using Java 21.0.3 with PID 9008 (D:\SpringSTS\Workspace3\Capston-expense-tracker\target\classes started by Vamsi in D:\SpringSTS\Workspace3\Capston-expense-tracker)-
+com.example.ExpenseApplication-[INFO]- 2024-07-25 09:09:07,385-No active profile set, falling back to 1 default profile: "default"-
+org.springframework.data.repository.config.RepositoryConfigurationDelegate-[INFO]- 2024-07-25 09:09:10,936-Bootstrapping Spring Data JPA repositories in DEFAULT mode.-
+org.springframework.data.repository.config.RepositoryConfigurationDelegate-[INFO]- 2024-07-25 09:09:11,146-Finished Spring Data repository scanning in 155 ms. Found 5 JPA repository interfaces.-
+org.springframework.cloud.context.scope.GenericScope-[INFO]- 2024-07-25 09:09:11,831-BeanFactory id=4b6679d1-4db9-3c1a-b61d-9444bea6f433-
+org.springframework.boot.web.embedded.tomcat.TomcatWebServer-[INFO]- 2024-07-25 09:09:13,194-Tomcat initialized with port 8081 (http)-
+org.apache.catalina.core.StandardService-[INFO]- 2024-07-25 09:09:13,245-Starting service [Tomcat]-
+org.apache.catalina.core.StandardEngine-[INFO]- 2024-07-25 09:09:13,245-Starting Servlet engine: [Apache Tomcat/10.1.25]-
+org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]-[INFO]- 2024-07-25 09:09:13,537-Initializing Spring embedded WebApplicationContext-
+org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext-[INFO]- 2024-07-25 09:09:13,539-Root WebApplicationContext: initialization completed in 6032 ms-
+org.hibernate.jpa.internal.util.LogHelper-[INFO]- 2024-07-25 09:09:14,155-HHH000204: Processing PersistenceUnitInfo [name: default]-
+org.hibernate.Version-[INFO]- 2024-07-25 09:09:14,375-HHH000412: Hibernate ORM core version 6.5.2.Final-
+org.hibernate.cache.internal.RegionFactoryInitiator-[INFO]- 2024-07-25 09:09:14,519-HHH000026: Second-level cache disabled-
+org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo-[INFO]- 2024-07-25 09:09:15,559-No LoadTimeWeaver setup: ignoring JPA class transformer-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-07-25 09:09:15,642-HikariPool-1 - Starting...-
+com.zaxxer.hikari.pool.HikariPool-[INFO]- 2024-07-25 09:09:16,810-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@72c704f1-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-07-25 09:09:16,816-HikariPool-1 - Start completed.-
+org.hibernate.orm.deprecation-[WARN]- 2024-07-25 09:09:16,995-HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)-
+org.hibernate.orm.deprecation-[WARN]- 2024-07-25 09:09:16,997-HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead-
+org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator-[INFO]- 2024-07-25 09:09:20,463-HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)-
+org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean-[INFO]- 2024-07-25 09:09:20,998-Initialized JPA EntityManagerFactory for persistence unit 'default'-
+org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration-[WARN]- 2024-07-25 09:09:22,599-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning-
+org.springframework.boot.web.embedded.tomcat.TomcatWebServer-[INFO]- 2024-07-25 09:09:25,951-Tomcat started on port 8081 (http) with context path '/'-
+com.example.ExpenseApplication-[INFO]- 2024-07-25 09:09:25,981-Started ExpenseApplication in 20.324 seconds (process running for 22.955)-
